@@ -1,3 +1,2 @@
-def reverse(name):
-    pass
-    return (name)[::-1]
+name = input("My name is: ")
+print(name[::-1])
