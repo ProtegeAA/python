@@ -1,12 +1,9 @@
-def leap_year(year):
-   if (int(year) % 4) > 0:
-    return False
-   else:
-    if ((int(year) % 400) == 0):
-        return True
-    else:
-     if ((int(year) % 100) != 0):
-        return True
-     else:
-      if ((int(year) % 100) == 0):
-         return False          
+year = input("Type the year: ")
+print(year)
+if (int(year) % 4) > 0:
+    print("This isn't a leap year")
+elif (((int(year) % 400) == 0)) and (((int(year) % 99) != 0)):
+        print("This is a leap year!")
+else:
+    print("It's unknown")
+### code is in progress
